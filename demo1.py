@@ -1,12 +1,11 @@
 # programed By : Khushi
 # Roll No. 36
-#List Assignment number : 1
-#Create a list of 5 friend names. Print the first and last name using positive and negative indexing
-name=["Purple","Orange","Papaya","Banana","Apple"]
-#use positive
-print("First name",name[0])
-print("last name",name[4])
-#use negative
-print("==========================================")
-print("First name",name[-1])
-print("last name",name[-5])
+#Dictionary Assignment number : 1
+# 1	Create a dictionary called student with keys: name, age, and course. Print only the course
+student={
+    "name":"Khushi",
+    "age":19,
+    "course":"Python"
+}
+print(student)
+print("course : ",student.get("course"))
